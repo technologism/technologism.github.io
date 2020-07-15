@@ -3120,6 +3120,37 @@ input, select, textarea {
 			}
 
 		}
+		.button.style2 {
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-moz-transition: background-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out;
+			background-color: transparent;
+			border-radius: 5px;
+			border: 0;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+			color: #ffffff !important;
+			cursor: pointer;
+			display: inline-block;
+			font-family: Raleway, Helvetica, sans-serif;
+			font-size: 0.8em;
+			font-weight: 700;
+			height: 3.75em;
+			letter-spacing: 0.1em;
+			line-height: 3.75em;
+			padding: 0 2.25em;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			white-space: nowrap;
+		}
+
 
 /* Features */
 
@@ -3134,7 +3165,12 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 0 2em 0;
 	}
-
+		.features article.style2 {
+			background-color: #272b3b;
+		}
+		.features article.style3 {
+			background-color: #1f2231;
+		}
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
 			background-color: #353849;
@@ -3142,7 +3178,7 @@ input, select, textarea {
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
 		}
-
+		
 			.features article:nth-child(2n) {
 				margin-right: 0;
 			}
@@ -3747,7 +3783,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #2a2c3a;
+		background-color: #2c2d3f;
 		margin: 0em 0;
 		position: relative;
 	}
@@ -3760,7 +3796,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #000000;
+			background-color: #272a41;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3776,7 +3812,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: #000000;
+			background-color: #22253a;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
@@ -3792,7 +3828,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: #000000;
+			background-color: #1b1d31;
 		}
 
 			.wrapper.style4:before, .wrapper.style4:after {
